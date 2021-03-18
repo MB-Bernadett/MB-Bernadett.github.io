@@ -1,0 +1,187 @@
+.flex-container {
+  display: flex;
+  background-color: black;
+  justify-content: center; 
+    
+}
+
+.flex-container > div {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: Barlow;
+}
+ 
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  float: left;
+  width: 40%;
+  height: 350px; 
+  background: #ccc; 
+  
+}
+
+ {
+  margin-top: 20px;
+}
+img{
+  height: 350px;
+  width: 40%;
+}
+/* Style the list inside the menu */
+
+article {
+  float: left;
+  padding: 20px;
+  width: 60%; 
+  background-color: #f1f1f1;
+  height: 350px; /* only for demonstration, should be removed */
+}
+
+.bekezdes {
+  font-family: Numans;
+}
+
+.felsorolas{
+  font-family: Metamorphous;
+  margin-top: 30px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container2 {
+  position: relative;
+  /*text-align: center;*/
+  color: black;
+  overflow-wrap: normal;
+}
+
+.My {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-19%, -170%);
+  font-family: Abril Fatface;
+  font-color: #222;
+   font-size: 35px;
+ }
+
+
+.anakin {
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  transform: translate(40%, -45%);
+  font-family: Abril Fatface;
+  font-color: #222;
+  font-size: 55px;  
+  overflow-wrap: normal;
+ }
+
+blockquote::before {
+  content: '”';
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  vertical-align: super;
+  position: absolute;
+  bottom: 230.5px;
+  left: 0;
+  font-size: 200%;
+  color: white;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', 
+    cursive;
+  display: inline-block;
+  background-color: #222;
+  color: white;
+  text-align: center; 
+  word-wrap: normal;
+  padding: 30px;
+  padding-left: 20px;
+  padding-botton: 10px;
+  font-size: 40px; 
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin-left: 10px;
+}
+
+
+h2 {
+  font-family: Josefin Sans;
+  font-color: #222;
+  font-size: 30px;
+}
+h3 {
+  font-family: Merriweather;
+  font-size: 22px;  
+}
+
+p{
+  font-family: Josefin Sans;
+  font-color: #222;
+}
+
+.mas{
+  text-align: left;  
+  padding: 30px; 
+  margin-left: 10px;
+  width: 300px;
+  }
+
+.last {
+  leight: 800px;
+}
+
+i {
+  padding-top: 10px;
+}
+
+#last{
+  height: 800px;
+ 
+}
+#mas1{
+  height: 760px;
+  width: 300px;
+
+}
+
+blockquote#mas1::before {
+  content: '”';
+  display: inline-block;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  vertical-align: super;
+  position: absolute;
+  bottom: 700.5px;
+  left: 0;
+  font-size: 200%;
+  color: white;
+}
+
+.article2{
+  float: left;
+  padding: 20px;
+  width: 60%; 
+  background-color: #f1f1f1;
+  height: 800px; 
+  
+}
